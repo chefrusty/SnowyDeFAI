@@ -1,6 +1,8 @@
-# ❄️ Snowy DeFAI
+<p align="center">
+  <img src="public/media/Snowy-Banner-xyz-lite.png" alt="Snowy DeFAI Banner" width="900" />
+</p>
 
-![Snowy Banner](public/media/Snowy-Banner-xyz-lite.png)
+# ❄️ Snowy DeFAI
 
 Snowy DeFAI is a voice-driven AI assistant designed to help users explore **crypto, Web3, and decentralized finance** through guided education and controlled interaction.
 
