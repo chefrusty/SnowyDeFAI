@@ -1,25 +1,40 @@
 # ❄️ Snowy DeFAI
 
-![Snowy Banner](apps/snowy-setup/public/stills/Snowy-Banner-xyz-lite.png)
+![Snowy Banner](public/media/Snowy-Banner-xyz-lite.png)
 
-Snowy DeFAI is a voice-driven AI assistant designed to help users explore crypto, Web3, and decentralized finance through guided education and controlled interaction.
+Snowy DeFAI is a voice-driven AI assistant designed to help users explore **crypto, Web3, and decentralized finance** through guided education and controlled interaction.
 
-Built and operated by a Tennessee-registered business entity.
+Built and operated by a **Tennessee-registered business entity**.
+
+> This repository is intentionally **minimal/public-facing** during Closed Beta.  
+> Proprietary orchestration, intent logic, and production trading internals are not published here yet.
 
 ---
 
-## 🌎 What Snowy Does
+## 🌎 Live + Official Links
+
+- Primary Site: https://snowydefai.app  
+- Domain: https://snowydefai.xyz
+
+### Social
+- X (Twitter): https://x.com/snowydefai  
+- YouTube: https://www.youtube.com/@snowydefai  
+- Instagram: https://www.instagram.com/snowydefai/
+
+---
+
+## 🌟 What Snowy Does (High-Level)
 
 Snowy combines:
 
 - 🎙️ Voice interaction (AI-driven conversations)
-- 📊 Crypto market data
-- 🌤️ Weather intelligence
+- 📊 Crypto market data and summaries
 - 📰 Crypto news briefings
+- 🌤️ Weather intelligence
 - 🔐 Secure wallet connection via Phantom
-- 🔄 Guided swap flows on Solana
+- 🔄 Guided swap flows on Solana (user-confirmed, step-by-step)
 
-Snowy is designed as a multi-user, channel-isolated system with cloud-hosted intelligence and a secure client shell.
+Snowy is designed as a **multi-user, channel-isolated system** with cloud-hosted intelligence and a secure client shell.
 
 ---
 
@@ -27,12 +42,12 @@ Snowy is designed as a multi-user, channel-isolated system with cloud-hosted int
 
 Snowy DeFAI consists of:
 
-- **Snowy App** – Public site & onboarding
-- **Snowy Setup** – Install & education flow
-- **Snowy Client** – Interactive UI shell
-- **Hub (Cloud Run)** – AI engine & mailbox signal system
+- **Snowy App** — Public site & onboarding
+- **Snowy Setup** — Install & education flow
+- **Snowy Client** — Interactive UI shell
+- **Hub (Cloud Run)** — AI engine + mailbox/signal system
 
-The core trading logic and proprietary intent processing remain private during closed beta.
+The core trading logic and proprietary intent processing remain private during Closed Beta.
 
 ---
 
@@ -41,48 +56,47 @@ The core trading logic and proprietary intent processing remain private during c
 Snowy runs on:
 
 - Desktop (Phantom extension)
-- Mobile & Tablet (deep link secure flow)
-- Progressive Web App shell
-- Upcoming Android Trusted Web Activity wrapper
+- Mobile & Tablet (secure deep link flow)
+- Progressive Web App (PWA) style shell
+- Upcoming Android **Trusted Web Activity (TWA)** wrapper
 
 ---
 
-## 🎬 Demo
+## 🎬 Preview
 
-Setup Intro Preview:
+![Snowy Multi User](public/media/Snowy-multi-user-Celebration-Image.png)
 
-![Snowy Multi Device](apps/snowy-setup/public/stills/Snowy multi-user Celebration Image.png)
-
-> Full install & walkthrough video coming soon.
+> Full install and walkthrough videos will be linked from the official website/socials.
 
 ---
 
-## 🪙 SNOWY Token
+## 🪙 SNOWY Token (DAO)
 
-The SNOWY token is designed for:
+**SNOWY** is planned as a DAO/community membership & governance token:
+- Governance participation (voting)
+- Community membership utilities
+- Future staking utilities (post-beta)
 
-- DAO governance participation
-- Community membership
-- Future staking utilities
-
-Liquidity experiments are currently in development on Solana.
+Liquidity experiments are in development on Solana.
 
 ---
 
 ## 🔐 Security & Closed Beta
 
-Snowy DeFAI is currently in closed beta.
+Snowy DeFAI is currently in **Closed Beta**.
 
-Core swap logic, AI orchestration scripts, and proprietary intent routing are intentionally not published in this repository during active development.
+To protect users and the integrity of the system during testing:
+- Core orchestration scripts, intent routing, and production swap logic are not published here yet.
+- This public repo is primarily a **project homepage** with media and documentation.
 
 ---
 
-## 📊 Development Status
+## 📊 Development Status (Snapshot)
 
 - ✅ Multi-user channel isolation
 - ✅ Phantom wallet connect flow
-- ✅ Mobile PIN-gated swap arena
-- ✅ Sign-request / sign-result mailbox discipline
+- ✅ Mobile PIN-gated swap arena UX
+- ✅ Mailbox discipline (sign-request → sign-result)
 - 🔄 Play Store TWA wrapper in progress
 - 🔄 Staking & DAO mechanics research
 
@@ -90,36 +104,26 @@ Core swap logic, AI orchestration scripts, and proprietary intent routing are in
 
 ## ⚠️ Disclaimer
 
-Snowy DeFAI is an educational AI interface.  
+Snowy DeFAI is an **educational AI interface**.  
 It does not provide financial advice.  
-Users are responsible for all wallet interactions.
+Users are responsible for all wallet interactions and approvals.
 
 ---
 
-## 🌐 Official Links
+## 🧊 Built With (High-Level)
 
-Website: https://snowydefai.app  
-Domain: https://snowydefai.xyz  
-
----
-
-## 🧊 Built With
-
-- React
-- Vite
+- React + Vite
 - Firebase Hosting
 - Google Cloud Run
 - Solana Web3.js
 - Phantom Wallet
 - Jupiter Aggregator
-- Eliza-based AI orchestration (MIT components acknowledged)
+- Eliza-based orchestration components (MIT components acknowledged)
 
 ---
 
 ## 📌 License
 
-This public repository contains documentation, media, and interface shell components only.
+This public repository currently contains documentation and media only.
 
-Core proprietary trading logic is not included.
-
-See LICENSE file for terms.
+See the `LICENSE` file for terms.
