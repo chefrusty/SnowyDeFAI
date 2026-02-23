@@ -1,0 +1,30 @@
+# =========================
+# SnowyDeFAI public repo
+# Day-1: README + LICENSE + /public only
+# =========================
+
+# Allowlist approach: ignore everything by default
+*
+
+# Then allow only what we want public
+!.gitignore
+!README.md
+!LICENSE
+!public/
+!public/**
+
+# (Optional) allow a docs folder later
+#!docs/
+#!docs/**
+
+# Safety: never commit env/secrets
+**/.env
+**/.env.*
+**/secrets.json
+**/*.key
+**/private/
+**/wallet_data.txt
+**/cookies.json
+**/*.sqlite
+**/*.db
+**/logs/
